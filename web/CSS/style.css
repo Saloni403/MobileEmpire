@@ -1,0 +1,378 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+i{
+    margin-right: 10px;
+}
+ul{
+    padding-left: 0 !important;
+}
+li{
+    list-style: none;
+    font-size: 1rem;
+    margin-right:  10px;
+}
+
+hr{
+    width: 3px;
+    height: 20px;
+    background-color: #fff;
+}
+.mainnav{
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+.moreinfohidden{
+   margin: 10px;
+   
+    display: none;
+}
+.upperdiv , .bottomdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* padding: 20px 0; */
+    /* margin: 0 20px; */
+}
+.bottomdiv{
+    backdrop-filter: blur(10px);
+    background-color: #ffffff39;
+}
+#threelines{
+    display: none;
+}
+.upperdiv{
+    color: #fff;
+    background-color: #000;
+}
+.companyinfo li{
+    text-decoration: 2px solid orange underline;
+}
+
+.location ul, .contact , .contact .list1, .companyinfo ul,.logoinfo{
+    display: flex;
+    align-items: center;
+   
+}
+
+ button{
+    padding: 5px 20px;
+    background-color: orange;
+    border: 2px solid orange;
+   color: #fff;
+}
+.companyinfo-hidden{
+    position: fixed;
+    right: -350px;
+    top: 0;
+    transition: 0.3s;
+    box-sizing: border-box;
+    line-height: 80px;
+    /* width: 25%; */
+  background: orange;
+  padding: 0 20px;
+    z-index: 999;
+}
+
+#section1,.fullsection, #section3,#section4{
+margin: 0 100px;
+
+}
+.imagedives{
+    width: 50%;
+   display: flex;
+   align-items: end;
+   justify-content: space-between;
+}
+.imgcontent{
+    width: 50%;
+}
+.img1{
+    width: 50%;
+    height: 25rem;
+}
+.img2{
+    width: 40%;
+    height: 20rem;
+ }
+ .imgcontent{
+    padding: 30px 50px;
+ }
+.part1{
+    display: flex;
+    padding: 50px 0;
+   width: 100%;
+}
+.part2{
+    padding: 50px 0;
+}
+.nodelist{
+    width: 100%;
+    display:flex;
+  
+}
+.headingcontent{
+    text-align: center;
+}
+.nodelist div{
+    width: 20%;
+    vertical-align: middle;
+    text-align: center;
+}
+.nodelist img{
+    margin-bottom: 10px;
+}
+#section2 {
+    background-color: #000;
+    color: #fff;
+}
+.fullsection{
+    padding: 50px
+}
+
+
+
+.formrow{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.form-column {
+    width: 20%;
+ 
+}
+.form-column select{
+    width: 100%;
+       padding: 10px ;
+}
+
+#section3{
+    padding: 50px 0;
+}
+.nextbtn{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nextbtn button{
+    margin-top: 20px;
+    width: 20%;
+}
+.section3btns{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.section3btns button{
+    width: 30%;
+    padding: 10px ;
+    border: none;
+background-color: #000;
+color: #fff;
+}
+
+.section3-contentdiv{
+    display: flex;
+    padding: 30px ;
+   margin-top: 10px;
+   background: rgba(83, 98, 92, 0.1);
+}
+.left{
+    width: 70%;
+}
+.left button , .contentdiv button{
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+.right{
+    width: 30%;
+}
+.right img{
+    height: 100%;
+    width: 80%;
+    
+    box-shadow: 10px 10px 12px ;
+}
+.lowerinnerdiv{
+    display: flex;
+    align-items: start;
+}
+.lowerinnerdiv i{
+    
+    border: 2px solid #000;
+    background-color: #000;
+    color: #fff;
+    padding: 1rem;
+    margin-right: 1rem;
+    border-radius: 50px;
+    font-size: x-large;
+}
+
+.boxdiv{
+    background-color: #000;
+    color: #fff;
+}
+.boxdivinner{
+    margin: 0 100px;
+    padding: 50px 0;
+}
+.card-body{
+    text-align: center;
+}
+.card-body img{
+ 
+ margin-bottom: 10px;
+}
+.contentdiv{
+    padding: 50px 0;
+}
+.lowcost{
+    display: flex;
+    background: rgba(83, 98, 92, 0.1);
+    width: 100%;
+    padding: 50px 0;
+   
+}
+.rightdiv{
+    /* width: 50%; */
+    height: 100%;
+    margin: auto 20px;
+}
+.leftdiv{
+    /* width: 50%; */
+    text-align: center;
+}
+.leftdiv img{
+    width: 100%;
+}
+.rightdiv li{
+    list-style:disc;
+
+}
+.upperfooter{
+    display: flex;
+    margin: 0 100px;
+    padding: 50px 0;
+}
+.leftupperfooter{
+    /* width: 50%; */
+    height: 100%;
+    margin: auto 20px;
+}
+.rightupperfooter{
+    /* width: 50%; */
+    text-align: center;
+}
+.rightupperfooter img{
+    width: 100%;
+}
+
+.lowerfooter{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    margin: 0 100px;
+    padding: 50px 0;
+
+}
+.mainfooter{
+    background-color: #f8f6f0;
+}
+.lowerfooter hr{
+    width: 100%;
+    height: 2px;
+}
+.leftdiv1, .leftdiv2,.leftdiv3, .leftdiv4{
+    width: 22%;
+}
+
+.leftdiv2{
+    padding-left: 30px;
+}
+.leftdiv2 li, .leftdiv3 li{
+margin-left: 0;
+}
+
+.card-text{
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+@media(max-width:1200px){
+    .carousel-item img{
+        height: auto;
+    }
+    .imgcontent{
+        padding: 0 0 0 10px;
+    }
+    #section1,.fullsection, #section3,#section4, .boxdivinner,.upperfooter,.lowerfooter{
+        margin: 0 10px;
+        
+        }
+        .part1, .part2, #section3,.boxdivinner,.contentdiv,.lowcost,.upperfooter,.lowerfooter{
+            padding: 20px 0;
+        }
+}
+@media(min-width:950px){
+    .companyinfo-hidden{
+        display: none;
+    }
+}
+@media(max-width:950px){
+    .leftdiv2{
+        padding-left: 10px;
+    }
+    .section3-contentdiv, .fullsection{
+        padding: 10px;
+    }
+    #threelines,.moreinfohidden{
+        display: block;
+    }
+    .img2{
+        display: none;
+    }
+     .bottomdiv{
+        justify-content: space-between;
+        padding: 0 20px;
+     }
+     .card-body{
+        padding: 10px !important;
+     }
+    .img1{
+        width: 100%;
+    }
+    .companyinfo , .moreinfo,.upperdiv{
+        display: none;
+    }
+}
+@media(max-width:767px){
+.part1, .nodelist, .formrow, .section3btns, .section3-contentdiv,.lowcost,.upperfooter,.lowerfooter{
+    flex-direction: column;
+   
+}
+.leftdiv2{
+    padding-left: 0;
+}
+.imagedives, .imgcontent, .nodelist div, .form-column,.nextbtn button, .section3btns button, .left, .right, .right img,.leftdiv1, .leftdiv2, .leftdiv3, .leftdiv4{
+    width: 100%;
+}
+.imgcontent,.upper{
+   
+text-align: center;
+}
+.right img,.imgcontent, .rightupperfooter img, .leftdiv img {
+ padding: 10px 0;
+}
+.section3btns button{
+    margin: 5px 0;
+}
+}
